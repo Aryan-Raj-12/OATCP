@@ -2,13 +2,13 @@
 # Algorithm -
 
 - Input and Initialization:
- - The program starts by opening an input file (input1.txt) and an output file (output1.txt) using freopen().
- - It reads an integer n from the input file, representing the size of a square grid.
- - A 2D dynamic array array of size n x n is allocated to store the color information of each cell in the grid.
+    - The program starts by opening an input file (input1.txt) and an output file (output1.txt) using freopen().
+    - It reads an integer n from the input file, representing the size of a square grid.
+    - A 2D dynamic array array of size n x n is allocated to store the color information of each cell in the grid.
 
 - Grid Color Input:
- - The program reads the color information of each cell in the grid from the input file and stores it in the 2D array array.
- - The value 1 represents a colored cell, and 0 represents an uncolored cell.
+    - The program reads the color information of each cell in the grid from the input file and stores it in the 2D array array.
+    - The value 1 represents a colored cell, and 0 represents an uncolored cell.
 
 - Counting Subgrids:
     - The count_subgrids function calculates the number of subgrids in which both row a and row b have at least one colored cell in the same column.
